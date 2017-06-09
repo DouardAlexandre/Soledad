@@ -10,8 +10,9 @@ font-family: 'Lato', sans-serif;
 
 .row.articles{
 
-text-align:center;
+    text-align:center;
 }
+
 .img-responsive{
 	padding-bottom:25px;
 }
@@ -59,3 +60,14 @@ p.paragraphe_articles{
 
 
 }
+
+.social{
+     
+	 margin-bottom:10px;
+     
+}
+.fa{
+	color: #000000;
+    margin-left:8.5px;
+}
+
