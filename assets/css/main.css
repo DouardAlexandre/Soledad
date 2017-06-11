@@ -5,8 +5,15 @@
 .navbar-fixed-top{
     background-color: #212121;
     height: 60px;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+  
 }
- 
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
 .container-fluid nav ul{
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
@@ -311,7 +318,6 @@ span.nom_auteur:hover{
  }
 
  .images_instagram{
-<<<<<<< HEAD
  	 padding-top: 60px;
  	 position:relative;
  	 
@@ -337,10 +343,7 @@ span.nom_auteur:hover{
  	height:50px;
  }
  
-=======
- 	padding-top: 60px;
- 	    position: absolute;
- }
+
 
 
 .aboutpic , .insta{
@@ -397,4 +400,4 @@ h4 a:hover{
 	line-height: 28px;
     padding-bottom:14px;
 }
->>>>>>> master
+
