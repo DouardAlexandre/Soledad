@@ -303,6 +303,28 @@ span.nom_auteur:hover{
  }
 
  .images_instagram{
- 	padding-top: 60px;
- 	    position: absolute;
+ 	 padding-top: 60px;
+ 	 position:relative;
+ 	 
  }
+
+.title_instagram{
+ 	position: relative;
+ }
+ 
+ p.p_title{
+ 	position: absolute;
+ 	z-index: 1;
+ 	font-size: 12px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	letter-spacing: 1.5px;
+ 	height:40px;
+ 	margin-left: calc(50% - 83px);
+ 	margin-top: 5.2%;
+ 	background-color: white;
+ 	color: black;
+ 	padding:16px 20px 5px 20px;	
+ 	height:50px;
+ }
+ 
