@@ -5,29 +5,25 @@
 
 **Benjamin:**
 
-* ens
+* Barre de navigation
 
 
-* zos 
+* header 
 
 
-* f
+* footer
+
 
 **Alexandre:**
 
-* Her
+* Articles * 10
 
 
-* Core
+* lignes de photographies Instagram
 
 
-* datses
+* 
 
-
-* Baration
-
-
-* Pagon
 
 ___
 
