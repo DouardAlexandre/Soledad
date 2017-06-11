@@ -208,13 +208,26 @@ a.lien_categories{
     cursor: pointer;
 }
 
+a.lien_categories.losange::after{
+
+	display: inline-block;
+    content: "";
+    border: 1px solid #A60505;
+    margin: 0 15px 0 15px;
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-bottom: 2px;
+}
+
 a.lien_articles{
     text-decoration: none;
     cursor: pointer;
 }
 
 a.lien_articles:hover{  
-
 	color: #888888;                 
 	text-decoration: none;
 	-o-transition:.3s;
@@ -239,7 +252,7 @@ span.nom_auteur:hover{
 	cursor: pointer;
 }
 
-/*--------lignes grises icones---------*/
+/*--------lignes grises icones social articles---------*/
 
 
 .icones_social::before,.icones_social::after{
@@ -281,3 +294,15 @@ span.nom_auteur:hover{
     height: auto;
 }
  
+
+ /*-------- lignes d'images --------*/
+
+ .instagram{
+     margin:0;
+     padding: 0;
+ }
+
+ .images_instagram{
+ 	padding-top: 60px;
+ 	    position: absolute;
+ }
