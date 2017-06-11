@@ -83,7 +83,7 @@
 .enfant{
  
     position: absolute;
-    top: 50%;
+    top: 12em;
     transform: translateY(-50%);
     left: 50%;
     transform: translateX(-50%);
@@ -281,7 +281,15 @@ span.nom_auteur:hover{
 
  
 .titrelasttab{
-    border-bottom: solid black 1px;
+    border-bottom: solid #313131 1px;
+    margin-bottom: 3px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #313131;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
 }
  
 .aboutpic , .insta{
@@ -290,7 +298,7 @@ span.nom_auteur:hover{
 }
 
 .momdaught , .cintres , .styled{
-    width: 40%;
+    width: 100%;
     height: auto;
 }
  
@@ -306,3 +314,59 @@ span.nom_auteur:hover{
  	padding-top: 60px;
  	    position: absolute;
  }
+
+
+.aboutpic , .insta{
+    border-top: solid 1px #313131;
+    padding-top: 20px;
+}
+
+h4 a{
+    color: #313131;
+	font-size: 14px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	display:inline-block;
+}
+
+h4 a:hover{
+    color: #A60505;                 
+	text-decoration: none;
+	-o-transition:.3s;
+	-ms-transition:.3s;
+	-moz-transition:.3s;
+	-webkit-transition:.3s;
+	transition:.3s;
+}
+
+.col-lg-7 p{
+    font-family: 'Lato', sans-serif;
+    color: #939393;
+}
+
+.col-lg-4 .row{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    margin:auto;
+    padding-left: 0px;
+}
+
+.recent{
+    border-top: solid 1px black;
+}
+
+.momdaught{
+    margin-top: 4px;
+}
+
+.aboutp{
+    font-family: 'Lato', sans-serif;
+	font-size: 14px;
+    padding-top:16px;
+	text-align: justify;
+	line-height: 28px;
+    padding-bottom:14px;
+}
