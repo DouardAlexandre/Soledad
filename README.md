@@ -11,6 +11,9 @@
 * header 
 
 
+* About me / recent post / instagram slider
+
+
 * footer
 
 
@@ -20,9 +23,6 @@
 
 
 * lignes de photographies Instagram
-
-
-* 
 
 
 ___
