@@ -22,7 +22,10 @@
 * Articles * 10
 
 
-* lignes de photographies Instagram
+* ligne de photographies Instagram
+
+
+* Pagination
 
 
 * triangles noirs ( losange header )
