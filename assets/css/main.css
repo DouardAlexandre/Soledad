@@ -298,11 +298,17 @@ nav{
     font-size: 12px;
     color: #919191;
     font-family: 'PT Serif', serif;
+    
+}
+
+.pagination.pagination-sm li a {
+    
     background-color: #A60505;
 }
+
 .page1{
 	font-weight: 900;
-	
+
 }
 .page2{
 	font-weight: 900;
