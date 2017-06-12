@@ -288,13 +288,25 @@ span.nom_auteur:hover{
 /*-------- pagination --------*/
 
 
-ul.pagination-sm a{
-display: inline;
-
+nav{
+    text-align: center;
 }
 
-
-
+.pagination.pagination-sm li a{
+    border-radius: 0px;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #919191;
+    font-family: 'PT Serif', serif;
+    background-color: #A60505;
+}
+.page1{
+	font-weight: 900;
+	
+}
+.page2{
+	font-weight: 900;
+}
 
 /*-------- Dernier Tableau --------*/
  
