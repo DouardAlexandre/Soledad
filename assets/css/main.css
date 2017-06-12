@@ -3,13 +3,14 @@
 
 #1----Header
 #2----Parent/Enfant
-#3----Articles
-#4----liens
-#5----lignes grises icones social articles
-#6----pagination
-#7----Dernier Tableau 
-#8----lignes d'images instagram 
-#9----Footer 
+#3----triangles noir losange
+#4----Articles
+#5----liens
+#6----lignes grises icones social articles
+#7----pagination
+#8----Dernier Tableau 
+#9----lignes d'images instagram 
+#10---Footer 
 
 */
 
@@ -143,27 +144,26 @@
     font-size: 12px;
 
 }
+/*-------triangles noir losange---------*/
 
 .enfant3:before{
     content:"";
     position:absolute;
-    margin-top:-1px;
-    border-top: 26px solid transparent;
-    border-bottom: 26px solid transparent;
-    border-right: 21px solid black;
-    margin-left:-22px;
-
-	
+    margin-top:-5.7px;
+    border-top: 16.4px solid transparent;
+    border-bottom: 16.4px solid transparent;
+    border-right: 18px solid #323232;
+    margin-left:-46.20px;	
 }
 
 .enfant3:after{
 	content:"";
     position:absolute;
-    margin-top:-1px;
-    border-top: 26px solid transparent;
-    border-bottom: 26px solid transparent;
-    border-right: 21px solid black;
-    margin-left:0px;
+    margin-top:-5.4px;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-right: 18px solid #323232;
+    margin-left:26.1px;
     transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
@@ -327,7 +327,7 @@ span.nom_auteur:hover{
 /*-------- pagination --------*/
 
 
-nav{
+.page_pagination{
     text-align: center;
     border-bottom:1px solid #DEDEDE;
     padding-bottom:60px;
