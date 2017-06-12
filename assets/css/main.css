@@ -516,7 +516,7 @@ footer{
     font-size: 1.2em;
 }
 
-.nav.navbar-nav.footnav li a i:hover{
+.nav.navbar-nav.footnav a:hover i{
     background-color: white;
     color: #212121;
 }
@@ -533,7 +533,7 @@ footer{
     color: #939393;
 }
 
-.nav.navbar-nav.footnav li a:hover{
+.nav.navbar-nav.footnav a:hover p{
     color: white; 
 }
 
