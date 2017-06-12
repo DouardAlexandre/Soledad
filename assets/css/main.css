@@ -426,3 +426,70 @@ h4 a:hover{
     padding-bottom:14px;
 }
 
+/*-------- Footer --------*/
+
+footer{
+    margin-top: -25px;
+    height: 290px;
+    background-color: #212121;
+}
+
+.nav.navbar-nav.footnav{
+    border-bottom: solid 1px grey;
+    margin-left: 75px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: -20px;
+    
+}
+
+.footnav li i{
+    color: #939393;
+}
+
+.fa.fa-facebook.fin , .fa.fa-twitter.fin , .fa.fa-instagram.fin , .fa.fa-pinterest.fin , .fa.fa-flickr.fin , .fa.fa-tumblr.fin , .fa.fa-youtube-play.fin{
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 22px;
+    border: solid 1px #939393;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 1.2em;
+}
+
+.nav.navbar-nav.footnav li a i:hover{
+    background-color: white;
+    color: #212121;
+}
+
+.nav.navbar-nav.footnav li p{
+    display: inline-block;
+    margin-left: 14px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav.navbar-nav.footnav li a{
+    color: #939393;
+}
+
+.nav.navbar-nav.footnav li a:hover{
+    color: white; 
+}
+
+.row.end{
+    margin-left: 420px;
+    padding: 0px;
+    margin-top: 40px;
+}
+
+.outro{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    color: #939393;
+    margin-top: 34px;
+    margin-left: -30px;
+}
