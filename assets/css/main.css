@@ -71,9 +71,7 @@
     width: 100%;
     height: auto;
     position: relative;
-   
-   
-  
+     
 }
  
 .fa.fa-search{
@@ -87,7 +85,9 @@
  
 
 .parent{
-    position: relative
+    position: relative;
+    padding-bottom:40px;
+
 }
  
 .enfant{
@@ -284,6 +284,16 @@ span.nom_auteur:hover{
 	margin-right:0px;
 	margin-left: 0px;
 }
+
+/*-------- pagination --------*/
+
+
+ul.pagination-sm a{
+display: inline;
+
+}
+
+
 
 
 /*-------- Dernier Tableau --------*/
