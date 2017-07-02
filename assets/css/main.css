@@ -5,12 +5,13 @@
 #2----Parent/Enfant(header-image)
 #3----triangles noir losange
 #4----Articles
-#5----liens articles
-#6----lignes grises icones social articles
-#7----pagination
-#8----Dernier Tableau 
-#9----ligne d'images instagram 
-#10---Footer 
+#5----Article 3 et 5 : icones musique et play
+#6----liens articles
+#7----lignes grises icones social articles
+#8----pagination
+#9----Dernier Tableau 
+#10---ligne d'images instagram 
+#11---Footer 
 
 */
 
@@ -179,8 +180,9 @@
 }
 
 .img-responsive{
-	margin-bottom:25px;
 
+	margin-bottom:25px;
+    transition: all 0.35s ease-in-out;
 }
 
 .categorie_article a{
@@ -251,6 +253,76 @@
     margin-left:8.5px;
 }
 
+/*------Article 3 et 5 : icone musique et play---*/
+
+.fa-music{
+   margin: 0px;
+   padding: 0px;
+   top:5px;
+}
+.fa-play{
+   
+  
+   color:white;
+   margin-left: 5px;
+   
+
+}
+
+.hover_image{
+  position: relative;
+  overflow: hidden;
+
+}
+.hover_image .img-responsive{
+   transition: all 0.35s ease-in-out;
+
+}
+
+.hover_image .caption {
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    top: 45%;   
+    transform: translateY(-50%);
+    transition: all 0.35s ease-in-out;
+    text-align: center;
+}
+.caption-fa-music, .caption-fa-play{
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 41px;
+    top: 50%;
+    left: 51%;
+    margin: -25px 0 0 -25px;
+    font-size: 18px;
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.9);
+    background: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid;  
+}
+
+
+.hover_image:hover .caption{
+    opacity: 0;
+
+}
+.hover_image:hover .img-responsive{
+    opacity: .8;
+
+}
+
+
 /*--------Slider article 2---------*/
 
 .slider{
@@ -258,35 +330,39 @@
     
 }
 
-.slider:hover{
-    -o-transition:.3s;
-    -ms-transition:.3s;
-    -moz-transition:.3s;
-    -webkit-transition:.3s;
-    transition:.3s ;
-    
-}
 .display-right{
   display:block;
   position: absolute;
-  left :88%;
+  left :90%;
   top:45%;
   border-radius: 100%;
   border: none;
   width:36px;
   height: 36px;
-  
+  opacity: .8;
+  color:#5B5B5B;
+  background-color:white;
 }
 .display-left{
   display:block;
   position: absolute;
-  right:88%;
+  right:90%;
   top:45%;
   border-radius: 100%;
   border: none;
   width:36px;
   height: 36px;
+  opacity: .8;
+  color:#5B5B5B;
+  background-color:white;
   
+}
+
+button:focus {
+    outline:0;
+}
+.display-right:hover,.display-left:hover{
+    opacity: 1;
 }
 
 
@@ -331,20 +407,16 @@ span.nom_auteur:hover{
 	cursor: pointer;
 }
 
-.article-main a .img-responsive:hover{
- text-decoration: none;
- cursor: pointer;
- opacity: 0.8;
- -o-transition:.3s;
- -ms-transition:.3s;
- -moz-transition:.3s;
- -webkit-transition:.3s;
- transition:.3s ;
+.article-main .img-responsive:hover{
+   text-decoration: none;
+   cursor: pointer;
+   opacity: 0.8;
+
 }
 
-.img-responsive:hover{
+.img-responsive{
+    transition: all 0.35s ease-in-out;
 
-    
 }
 /*--------lignes grises icones social articles---------*/
 
@@ -391,13 +463,13 @@ span.nom_auteur:hover{
 }
 
 .pagination.pagination-sm li a:hover{
-   background-color:white;
-   border-color: #999999;
-   -o-transition:.3s;
-   -ms-transition:.3s;
-   -moz-transition:.3s;
-   -webkit-transition:.3s;
-   transition:.3s;
+ background-color:white;
+ border-color: #999999;
+ -o-transition:.3s;
+ -ms-transition:.3s;
+ -moz-transition:.3s;
+ -webkit-transition:.3s;
+ transition:.3s;
 }
 
 .pagination.pagination-sm li a.page1 {
@@ -443,13 +515,13 @@ span.nom_auteur:hover{
 /*-------- lignes d'images instagram --------*/
 
 .instagram{
- margin:0;
- padding: 0;
+   margin:0;
+   padding: 0;
 }
 
 .images_instagram{
-   padding-top: 60px;
-   position:relative;
+ padding-top: 60px;
+ position:relative;
 
 }
 
