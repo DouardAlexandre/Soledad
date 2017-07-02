@@ -2,20 +2,20 @@
 /*
 
 #1----Header
-#2----Parent/Enfant
+#2----Parent/Enfant(header-image)
 #3----triangles noir losange
 #4----Articles
-#5----liens
+#5----liens articles
 #6----lignes grises icones social articles
 #7----pagination
 #8----Dernier Tableau 
-#9----lignes d'images instagram 
+#9----ligne d'images instagram 
 #10---Footer 
 
 */
 
 
- /*--------Header--------*/
+/*--------Header--------*/
 
 .navbar-fixed-top{
     background-color: #212121;
@@ -23,7 +23,7 @@
     margin:0 auto;
     display: block;
     text-align: center;
-  
+
 }
 .navbar-nav > li {
     display: inline-block;
@@ -36,7 +36,7 @@
     font-size: 0.8em;
     letter-spacing: 1px;
 }
- 
+
 .container-fluid nav ul a{
     color: #999999;
     height: 60px;
@@ -44,7 +44,7 @@
     padding-left: 30px;
     padding-right: 30px;
 }
- 
+
 .nav  li  a:hover{
     background-color: #212121;
     color: white;
@@ -53,11 +53,11 @@
     text-decoration-style: solid;
     text-underline-position: under;
 }
- .haut{
+.haut{
     color: #212121;
     padding: 0;
 }
- 
+
 .bloclogo{
     margin-top: 60px;
     width: 100%;
@@ -65,13 +65,13 @@
     padding-top: 45px;
     background-color: #F5F5F5;
 }
- 
+
 .bloclogo .img-responsive{
     margin: auto;
     margin-top: 0px;
     padding-bottom: 0;
 }
- 
+
 .intro{
     text-align: center;
     font-family: 'PT Serif', serif;
@@ -81,32 +81,32 @@
     margin: 0;
     padding-top: 5px;
 }
- 
+
 .imgcouverture{
     width: 100%;
     height: auto;
     position: relative;
-     
+
 }
- 
+
 .fa.fa-search{
- 
+
     color: #999999;
     font-size: 1.4em;
     margin-left: 152px; 
 }
 
 /*--------Parent/Enfant--------*/
- 
+
 
 .parent{
     position: relative;
     padding-bottom:40px;
 
 }
- 
+
 .enfant{
- 
+
     position: absolute;
     top: 12em;
     transform: translateY(-50%);
@@ -116,9 +116,9 @@
     height: 161px;
     background-color: white;
 }
- 
+
 .enfant2{
- 
+
     width: 480px;
     height: 156px;
     position: absolute;
@@ -168,7 +168,7 @@
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
 }
- 
+
 
 
 /*-------Articles---------*/
@@ -179,7 +179,8 @@
 }
 
 .img-responsive{
-	padding-bottom:25px;
+	margin-bottom:25px;
+
 }
 
 .categorie_article a{
@@ -234,15 +235,15 @@
 	font-family: 'Lato', sans-serif;
 	font-size: 14px;
     padding-top:16px;
-	text-align: justify;
-	line-height: 28px;
+    text-align: justify;
+    line-height: 28px;
     padding-bottom:14px;
 }
 
 .icones_social{
-	 padding-bottom:46px;
-	 display: inline-block;
-	 
+  padding-bottom:46px;
+  display: inline-block;
+
 }
 
 .fa{
@@ -250,7 +251,46 @@
     margin-left:8.5px;
 }
 
-/*--------liens---------*/
+/*--------Slider article 2---------*/
+
+.slider{
+    position:relative;
+    
+}
+
+.slider:hover{
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s ;
+    
+}
+.display-right{
+  display:block;
+  position: absolute;
+  left :88%;
+  top:45%;
+  border-radius: 100%;
+  border: none;
+  width:36px;
+  height: 36px;
+  
+}
+.display-left{
+  display:block;
+  position: absolute;
+  right:88%;
+  top:45%;
+  border-radius: 100%;
+  border: none;
+  width:36px;
+  height: 36px;
+  
+}
+
+
+/*--------liens articles---------*/
 
 a.lien_categories{
     color: #A60505;
@@ -285,22 +325,27 @@ a.lien_articles:hover{
 	-webkit-transition:.3s;
 	transition:.3s;
 }
-img.img-responsive:hover{
-	color: rgba(255,255,255,.5);                 
-	text-decoration: none;
-	-o-transition:.3s;
-	-ms-transition:.3s;
-	-moz-transition:.3s;
-	-webkit-transition:.3s;
-	transition:.3s;
-	cursor: pointer;
-}
 
 span.nom_auteur:hover{
 	color: #A60505;
 	cursor: pointer;
 }
 
+.article-main a .img-responsive:hover{
+ text-decoration: none;
+ cursor: pointer;
+ opacity: 0.8;
+ -o-transition:.3s;
+ -ms-transition:.3s;
+ -moz-transition:.3s;
+ -webkit-transition:.3s;
+ transition:.3s ;
+}
+
+.img-responsive:hover{
+
+    
+}
 /*--------lignes grises icones social articles---------*/
 
 
@@ -311,9 +356,9 @@ span.nom_auteur:hover{
     width: 20.7rem;
     margin: 0 0.7rem;
     transform: translateY(-.4rem);
-	
+
 }
-    
+
 .icones_social::after{
 	margin-left: 8px;
 	margin-right:0px;
@@ -369,9 +414,9 @@ span.nom_auteur:hover{
 }
 
 /*-------- Dernier Tableau --------*/
- 
 
- 
+
+
 .titrelasttab{
     border-bottom: solid #313131 1px;
     margin-bottom: 3px;
@@ -383,7 +428,7 @@ span.nom_auteur:hover{
     letter-spacing: 1px;
     padding-bottom: 20px;
 }
- 
+
 .aboutpic , .insta{
     width: 100%;
     height: auto;
@@ -393,41 +438,41 @@ span.nom_auteur:hover{
     width: 100%;
     height: auto;
 }
- 
 
- /*-------- lignes d'images instagram --------*/
 
- .instagram{
-     margin:0;
-     padding: 0;
- }
+/*-------- lignes d'images instagram --------*/
 
- .images_instagram{
- 	 padding-top: 60px;
- 	 position:relative;
- 	 
- }
+.instagram{
+ margin:0;
+ padding: 0;
+}
+
+.images_instagram{
+   padding-top: 60px;
+   position:relative;
+
+}
 
 .title_instagram{
- 	position: relative;
- }
- 
- p.p_title{
- 	position: absolute;
- 	z-index: 1;
- 	font-size: 12px;
-	font-family: 'Playfair Display', serif;
-	font-weight: 900;
-	letter-spacing: 1.5px;
- 	height:40px;
- 	margin-left: calc(50% - 83px);
- 	margin-top: 5.2%;
- 	background-color: white;
- 	color: black;
- 	padding:16px 20px 5px 20px;	
- 	height:50px;
- }
- 
+  position: relative;
+}
+
+p.p_title{
+  position: absolute;
+  z-index: 1;
+  font-size: 12px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  height:40px;
+  margin-left: calc(50% - 83px);
+  margin-top: 5.2%;
+  background-color: white;
+  color: black;
+  padding:16px 20px 5px 20px;	
+  height:50px;
+}
+
 .aboutpic , .insta{
     border-top: solid 1px #313131;
     padding-top: 20px;
@@ -435,20 +480,20 @@ span.nom_auteur:hover{
 
 h4 a{
     color: #313131;
-	font-size: 14px;
-	font-family: 'Playfair Display', serif;
-	font-weight: 900;
-	display:inline-block;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    display:inline-block;
 }
 
 h4 a:hover{
     color: #A60505;                 
-	text-decoration: none;
-	-o-transition:.3s;
-	-ms-transition:.3s;
-	-moz-transition:.3s;
-	-webkit-transition:.3s;
-	transition:.3s;
+    text-decoration: none;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
 }
 
 .col-lg-7 p{
@@ -476,10 +521,10 @@ h4 a:hover{
 
 .aboutp{
     font-family: 'Lato', sans-serif;
-	font-size: 14px;
+    font-size: 14px;
     padding-top:16px;
-	text-align: justify;
-	line-height: 28px;
+    text-align: justify;
+    line-height: 28px;
     padding-bottom:14px;
 }
 
