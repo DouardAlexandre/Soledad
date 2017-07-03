@@ -34,8 +34,9 @@
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 0.8em;
-    letter-spacing: 1px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    padding-left: 0px;
 }
 
 .container-fluid nav ul a{
@@ -145,6 +146,11 @@
     font-size: 12px;
 
 }
+
+.enfant2 h3 a:link{
+    text-decoration: none;
+}
+
 /*-------triangles noir losange---------*/
 
 .enfant3:before{
@@ -614,13 +620,20 @@ footer{
     background-color: #212121;
 }
 
+.footerpic{
+    width: 369px;
+    height: 60px;
+    margin-left: 35px;
+}
+
 .nav.navbar-nav.footnav{
-    border-bottom: solid 1px grey;
+    border-bottom: solid 0.5px grey;
     margin-left: 75px;
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     font-weight: 900;
-    margin-top: -20px;
+    margin-top: -10px;
+    padding-bottom: 10px;
     
 }
 
@@ -633,7 +646,7 @@ footer{
     height: 36px;
     text-align: center;
     line-height: 22px;
-    border: solid 1px #939393;
+    border: solid 1px #999;
     padding: 5px;
     border-radius: 50%;
     font-size: 1.2em;
